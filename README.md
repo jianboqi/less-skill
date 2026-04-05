@@ -73,7 +73,7 @@ Once installed, your AI assistant can:
 ## Requirements
 
 - [LESS](http://lessrt.org/) installed on your system
-- Python with NumPy
+- Python with NumPy (LESS ships with a bundled Python interpreter, no separate installation needed)
 
 ## License
 

@@ -25,6 +25,21 @@ Similarly, determine the **pyLessSDK path**:
 - If LESS is an installed distribution: `<LESS_ROOT>/app/Python_script/pyLessSDK`
 - If working from the source repo: `<repo_root>/Utility/Python_script/pyLessSDK`
 
+### Bundled Python Interpreter
+
+LESS ships with a bundled Python interpreter — users do NOT need to install Python separately:
+- **Windows**: `<LESS_ROOT>/app/bin/python/python.exe`
+- **Linux**: `<LESS_ROOT>/app/bin/py312_linux/bin/python`
+
+When running simulation scripts, prefer using this bundled interpreter as it includes all required dependencies (NumPy, etc.). For example:
+```bash
+# Windows
+D:\LESS\app\bin\python\python.exe my_simulation.py
+
+# Linux
+/opt/LESS/app/bin/py312_linux/bin/python my_simulation.py
+```
+
 **Tip for users**: Add this line to your project's `CLAUDE.md` to avoid being asked every time:
 ```
 LESS installation directory: D:\LESS
